@@ -8,4 +8,4 @@
 
 ## Cython
 
-### 1. [Hello World](./docs/Cython/Hello_Word.md)
+### 1. [Hello World](./docs/Cython/Hello_World.md)
