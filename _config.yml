@@ -1,0 +1,26 @@
+# SEO Values
+title: Python Advanced Concepts
+description: Documentation of various advanced python concepts
+url: https://blacksmithop.github.io/PythonConcepts/
+logo: https://draculatheme.com/static/icons/pack-1/045-dracula.svg
+
+# Google Analytics ID
+google_analytics:
+
+# GitHub Values
+github:
+  owner_name: Abhinav
+  owner_url: https://github.com/blacksmithop
+  repository_url: https://github.com/blacksmithop/PythonConcepts
+
+show_downloads: true
+show_header: true
+remote_theme: "dracula/gh-pages"
+
+sass:
+    style: compressed
+
+plugins:
+  - jekyll-seo-tag
+
+show_downloads: false
