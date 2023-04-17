@@ -8,11 +8,11 @@ We start off by creating a coroutine
 import asyncio
 
 async def coro(num):
-    print(">", num)
-    await asyncio.sleep(1)
-    print("<", num)
+	print(">", num)
+	await asyncio.sleep(1)
+	print("<", num)
 
-    return num****
+	return num****
 ```
 
 Now we create a `loop`
@@ -43,10 +43,10 @@ print(results)
 ```
 
 ```json
-> 1
-> 2
-< 1
-< 2
+1
+2
+1
+2
 [1, 2]
 ```
 

@@ -6,7 +6,7 @@ Let's say you made a function
 
 ```python
 def func():
-    print("Hello World")
+	print("Hello World")
 ```
 
 If you wanted to store a reference you'd simply do this
@@ -49,7 +49,7 @@ from functools import partial
 
 ```python
 def func(arg):
-    return(arg)
+	return(arg)
 ```
 
 Now we create a partial function
@@ -70,7 +70,7 @@ If I were to try the same thing with coroutines this will happen
 
 ```python
 async def coro(arg):
-    print(arg)
+	print(arg)
 
 coro_ref = coro("Hello World")
 ```
