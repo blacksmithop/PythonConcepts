@@ -6,3 +6,4 @@ Gemfile.lock
 /.vscode
 /gh-pages
 /.obsidian
+*.py
